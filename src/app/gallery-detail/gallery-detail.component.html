@@ -1,5 +1,7 @@
-<div *ngIf="artPiece">
+<div class="art-detail" *ngIf="artPiece">
+  <img [src]="artPiece.imageUrl" alt="{{ artPiece.name }}" class="art-image">
   <h2>{{ artPiece.name }}</h2>
-  <p>Artist: {{ artPiece.artist }}</p>
-  <p>Year Created: {{ artPiece.yearCreated }}</p>
+  <p><strong>Artist:</strong> {{ artPiece.artist }}</p>
+  <p><strong>Year Created:</strong> {{ artPiece.yearCreated }}</p>
+  <p><strong>Description:</strong> {{ artPiece.description }}</p>
 </div>

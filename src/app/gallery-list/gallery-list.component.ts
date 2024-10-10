@@ -2,13 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { ArtService} from '../Services/art.service';
 import { Router } from '@angular/router';
 import {GalleryDetailComponent} from '../gallery-detail/gallery-detail.component';
+import {NgForOf} from '@angular/common';
 
 @Component({
   selector: 'app-gallery-list',
   templateUrl: './gallery-list.component.html',
   styleUrls: ['./gallery-list.component.css'],
   imports: [
-    GalleryDetailComponent
+    GalleryDetailComponent,
+    NgForOf
   ],
   standalone: true
 })
