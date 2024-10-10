@@ -1,0 +1,35 @@
+/* Art piece detail container */
+.art-detail {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.art-detail h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.art-detail p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #666;
+}
+
+.art-detail p strong {
+  color: #333;
+}
+
+/* Image display for art piece */
+.art-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}

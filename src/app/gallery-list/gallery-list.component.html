@@ -1,0 +1,10 @@
+<ul>
+  <li *ngFor="let art of artPieces">
+    <a (click)="onSelect(art)">
+      {{ art.name }} by {{ art.artist }} ({{ art.yearCreated }})
+    </a>
+  </li>
+</ul>
+
+<!-- Detail component included for potential child communication -->
+<app-gallery-detail [artPiece]="selectedArtPiece"></app-gallery-detail>

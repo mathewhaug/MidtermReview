@@ -1,0 +1,17 @@
+.art-detail {
+  padding: 20px;
+}
+
+.art-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
