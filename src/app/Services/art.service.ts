@@ -11,7 +11,7 @@ export class ArtService {
       artist: 'Vincent van Gogh',
       yearCreated: 1889,
       description: 'A famous painting depicting a swirling night sky above a quiet town.',
-      imageUrl: 'assets/Image1.jpg'
+      imageUrl: 'assets/Image2.jpg'
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ export class ArtService {
       artist: 'Leonardo da Vinci',
       yearCreated: 1503,
       description: 'A portrait of a woman with a mysterious smile, painted by Leonardo da Vinci.',
-      imageUrl: 'assets/Image2.jpg'
+      imageUrl: 'assets/Image3.png'
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ export class ArtService {
       artist: 'Salvador Dalí',
       yearCreated: 1931,
       description: 'A surreal painting by Salvador Dalí, featuring melting clocks in a desert landscape.',
-      imageUrl: 'assets/Image3.png'
+      imageUrl: 'assets/Image1.jpg'
     }
   ];
 

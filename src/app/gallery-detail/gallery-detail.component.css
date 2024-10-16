@@ -1,35 +1,34 @@
-/* Art piece detail container */
-.art-detail {
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 600px;
-  background-color: #f9f9f9;
+.art-detail-container {
   border: 1px solid #ddd;
-  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.art-detail h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.art-detail p {
-  font-size: 18px;
-  margin: 5px 0;
-  color: #666;
-}
-
-.art-detail p strong {
-  color: #333;
-}
-
-/* Image display for art piece */
 .art-image {
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 15px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+}
+
+.art-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.art-info {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.art-description {
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.5;
 }
