@@ -24,11 +24,11 @@ export class GalleryListComponent implements OnInit {
     this.artPieces = this.artService.getArtPieces();
   }
 
-  viewArtDetail(id: number): void {
+  onSelect(id: number): void {
     this.router.navigate(['/art', id]);
   }
 
-  onSelect(artPiece: any): void {
-    this.selectedArtPiece = artPiece;
-  }
+  //onSelect(artPiece: any): void {
+    //this.selectedArtPiece = artPiece;
+  //}
 }

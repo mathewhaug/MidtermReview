@@ -1,11 +1,12 @@
 import { Component, Input } from '@angular/core';
-import {NgIf} from '@angular/common';
+import {NgIf, NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'app-gallery-detail',
   templateUrl: './gallery-detail.component.html',
   imports: [
-    NgIf
+    NgIf,
+    NgOptimizedImage
   ],
   standalone: true
 })

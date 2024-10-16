@@ -1,7 +1,7 @@
 <ul>
   <li *ngFor="let art of artPieces">
     <img [src]="art.imageUrl" alt="{{ art.name }}" class="thumbnail">
-    <a (click)="onSelect(art)">
+    <a (click)="onSelect(art.id)">
       {{ art.name }} by {{ art.artist }} ({{ art.yearCreated }})
     </a>
   </li>
