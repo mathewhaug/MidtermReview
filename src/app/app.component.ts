@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {RouterLink, RouterOutlet} from '@angular/router';
+import {GalleryListComponent} from './gallery-list/gallery-list.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, GalleryListComponent, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

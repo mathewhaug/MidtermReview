@@ -1,0 +1,10 @@
+<div *ngFor="let art of artPieces">
+  <img [src]="art.imageUrl" alt ="{{art.name}}" fill>
+  <a (click) ="onSelect(art.id)">
+    <h2>Art Name: {{art.name}}</h2>
+    <p>Artist: {{art.artist}}</p>
+    <p>Year: {{art.yearCreated}}</p>
+  </a>
+</div>
+<!-- Detail component is here as its needed for child comm-->
+<app-gallery-detail [artPiece]="selectedArtPiece"></app-gallery-detail>
